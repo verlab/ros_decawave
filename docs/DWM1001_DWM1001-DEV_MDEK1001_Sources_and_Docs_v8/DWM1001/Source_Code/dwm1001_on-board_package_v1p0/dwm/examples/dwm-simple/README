@@ -1,0 +1,31 @@
+DWM example program
+
+== Compilation of DWM firmware ==
+* List available Makefile targets
+
+  $ make help
+  make <target>
+  targets:
+    <all | clean | compile_load | load>
+    <connect | debug | help | led_blink | reset | eraseenv | eraseall | recover>
+
+* Clean the old compiled objects
+
+  $ make clean
+
+* Compile and load firmware
+
+  $ make
+  $ make load
+
+or
+
+  $ make compile_load
+
+* Compile with full output from the compiler
+
+  $ make V=1 compile_load
+
+* Recover default binaries (factory reset)
+
+  $ make recover
