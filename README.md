@@ -22,7 +22,7 @@ Setup the tag and the anchors using the Android app, and connected the tag using
 Download this repo into the ros workspace and compile:
 ```
 $ cd src/
-$ git clone https://github.com/verlab/JINT2019-Fast_Mobile_Localization.git
+$ git clone https://github.com/verlab/ros_decawave.git
 $ cd ..
 $ catkin_make ## or catkin build
 ```
