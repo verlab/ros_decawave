@@ -32,8 +32,7 @@ Run the launch:
 ```
 $ roslaunch ros_decawave decawave_driver.launch
 ```
-![system](media/ros_decawave_rviz.png)
-
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ieaP79FDLC0/0.jpg)](https://www.youtube.com/watch?v=ieaP79FDLC0)
 
 ### Topics
 ```
